@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BarberBoss.API/BarberBoss.API.csproj" />
+    <Project Path="src/BarberBoss.Application/BarberBoss.Application.csproj" />
+    <Project Path="src/BarberBoss.Comunication/BarberBoss.Comunication.csproj" />
+    <Project Path="src/BarberBoss.Domain/BarberBoss.Domain.csproj" />
+    <Project Path="src/BarberBoss.Exception/BarberBoss.Exception.csproj" />
+    <Project Path="src/BarberBoss.Infrastructure/BarberBoss.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CommonTestUtilities/CommomTestUtilities.csproj" Id="61c4b343-560b-43b8-b442-40a6ad489a2e" />
+    <Project Path="tests/Validator.Tests/Validator.Tests.csproj" Id="bf8c2301-bdad-45e9-bde2-1152a4634df0" />
+  </Folder>
+</Solution>

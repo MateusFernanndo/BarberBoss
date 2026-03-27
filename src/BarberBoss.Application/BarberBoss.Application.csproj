@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Usecase\Billing\Reports\Pdf\Fonts\Raleway-Black.ttf" />
+    <None Remove="Usecase\Billing\Reports\Pdf\Fonts\Raleway-Regular.ttf" />
+    <None Remove="Usecase\Billing\Reports\Pdf\Fonts\WorkSans-Black.ttf" />
+    <None Remove="Usecase\Billing\Reports\Pdf\Fonts\WorkSans-Regular.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Usecase\Billing\Reports\Pdf\Fonts\Raleway-Black.ttf" />
+    <EmbeddedResource Include="Usecase\Billing\Reports\Pdf\Fonts\Raleway-Regular.ttf" />
+    <EmbeddedResource Include="Usecase\Billing\Reports\Pdf\Fonts\WorkSans-Black.ttf" />
+    <EmbeddedResource Include="Usecase\Billing\Reports\Pdf\Fonts\WorkSans-Regular.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="ClosedXML" Version="0.105.0" />
+    <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="11.0.0-preview.1.26104.118" />
+    <PackageReference Include="PDFsharp-MigraDoc" Version="6.2.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BarberBoss.Comunication\BarberBoss.Comunication.csproj" />
+    <ProjectReference Include="..\BarberBoss.Domain\BarberBoss.Domain.csproj" />
+    <ProjectReference Include="..\BarberBoss.Exception\BarberBoss.Exception.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Logo\LogoProf.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
