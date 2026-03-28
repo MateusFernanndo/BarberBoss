@@ -1,4 +1,4 @@
-## Sobre o projeto
+## About the project
 
 This API, developed using **.NET 8.0**, adopts the principles of **Domain-Driven Design (DDD)** to offer a structured and effective soluction for managing a barbarshop's billing. The main objective is to allow owners to record their billings, using information such as the barber's name, client's name, the service provided, payment type and the date the service was performed, with the data securely stored in **MySQL database**.
 
