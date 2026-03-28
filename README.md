@@ -16,7 +16,7 @@ Among the NuGet packages used, **AutoMapper** is responsible for mapping between
  - **RESTful API with Swagger Documentation**: Documented interface that facilitates integration and testing by developers.
 
 
-### Construido com
+### Build by
 
 ![badge-dot-net]
 ![badge-windows]
